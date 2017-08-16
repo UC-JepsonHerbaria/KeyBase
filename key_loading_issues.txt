@@ -1,0 +1,18 @@
+Cosmos
+In TJM2 they had one species (C. bipinnatus), so there was no key, and the Asteraceae key just says Cosmos.
+However, there is a second species (C. sulphureus) that is a garden weed so was not in the book but is in the eFlora.
+For now, we interpret "Cosmos" in the Asteraceae key as meaning "Cosmos bipinnatus"
+And in the future our scientific editor needs to make a Cosmos key.
+
+Ipomoea and other Unabridged keys
+Unabridged keys such as Ipomoea, Lantana etc. did not get parsed by make_keys_for_pruning.pl
+I assume either because the genus treatment starts with UNABRIDGED
+or because the key itself starts with UNABRIDGED KEY
+I need to update the parser to be able to handle these
+
+Monotypic genera: need to be loaded into KB a special way
+
+Times sign
+Mentha ×gracilis and others: the times sign seems to mess with KB.
+Perhaps replace the times sign with "X " in the filters and in the keys
+But then in BYOChecklist you must depend on people entering hybrid names correctly
